@@ -64,6 +64,18 @@
                 $this->vie = 0;
             }
         }
+
+        public function attaque($cible)
+{
+   // $cible->vie -= 2 * $this->atk;
+   /* au lieu de faire 2*$this->atk on peut faire la même méthode que dans la classe parente puis appeler la méthode parente grâce à parent :: */
+
+    $cible->vie -= $this->atk;
+  
+
+   $cible->empecher_negatif(); //empêche d'aller en dessous de zeéro pour les points de vie 
+}
+
         
 
 
