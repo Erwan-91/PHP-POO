@@ -46,4 +46,13 @@
     $pikachu->setNom("Princess Peach");
     var_dump($pikachu->getNom());
     
+    echo "<br>";
+    $merlin = new Magicien("Merlin");
+    var_dump($merlin);
+
+    $merlin ->attaque($luigi);
+
+    // echo "<p>Mario a".$mario->vie."vies </p>";
+    var_dump($luigi);
+    
 ?>
