@@ -29,11 +29,11 @@
 
 
                 <h3 class="texte-secondary texte-center">Qans quel cas l'utiliser ?</h3>
-                <p>Définition : Instancier c'est faire un nouvel objet, une classe et on fait un <code>new=</code></p>
+                <p>Définition : Instancier c'est faire un nouvel objet, une classe et on fait un <code>new=</code> .</p>
 
 
 
-                <p>Les méthodes et propriétés statiques sont pratiques dans certains cas uniquement. Premièrement lorsque l'on veut qu'une méthode soit appliquée à notre classe, comme lors du formatage d'un nombre <br>
+                <p>Les méthodes et propriétés statiques sont pratiques dans certains cas uniquement. Premièrement lorsque l'on veut qu'une méthode soit appliquée à notre classe, comme lors du formatage d'un nombre. <br>
                     Exemple: Lorsque l'on rajoute un zéro initial quand le chiffre est inférieur à 10. <br>
                     On ne voudra pas dire à chaque fois <code>$machin= new Machin;</code>puis <code>$machin->format()</code>car ce code est trop lourd et il existe plus simple. On cherche en fait à ce que dès que l'instanciation est faite, le format soit automatiquement appelé.</p>
 
